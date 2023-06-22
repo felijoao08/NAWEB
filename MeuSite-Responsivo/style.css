@@ -34,7 +34,7 @@ header {
 }
 nav {
     background-color: rgb(29, 27, 27);
-    padding: 20px 20px;
+    padding: 20px 0;
     text-align: center;
 }
 a {
@@ -59,7 +59,13 @@ main {
     padding: 10px 20px;
     border:1px solid darkblue;
 }
-.felipe-galan {
+.Curiosidade {
+    margin: 20px auto;
+}
+ol {
+    margin-left: 20px;
+}
+.img-felipe-galan, .img-Felipe-Escola {
     min-height: 260px;
     max-height: 400px;
     display: block;
@@ -67,4 +73,12 @@ main {
     margin-bottom:20px;
     margin-top: 20px;
     border-radius: 10px;
+}
+.table-historico-escolar, td, tr {
+    border: 1px solid black;
+    text-align: center;
+    margin: auto;
+}
+td, tr {
+    padding: 10px 40px;
 }
