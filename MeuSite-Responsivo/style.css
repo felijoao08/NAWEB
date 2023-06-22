@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: FonteTitulo;
+    src: url(fonte/Billabong.ttf);
+}
+@font-face {
+    font-family:fontText ;
+    src: url(fonte/expressway-rg.otf);
+}
+@media only screen and (max-width: 700px) {
+    a {
+        font-size: 10px;
+        margin-right: 10px;
+    }
+}
+@media only screen and (max-width: 560px) {
+    a {
+        display: flex;
+        justify-content:left ;
+    }
+}
+/*aqui vou modelar o cabeçalho e seus elementos*/
+header {
+    background-color: lightblue;
+}
+.titulo {
+    font-family: Fontetitulo;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+nav {
+    background-color: rgb(29, 27, 27);
+    padding: 20px 20px;
+    text-align: center;
+}
+a {
+    font-family: fontText;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    margin-right: 50px;
+    padding: 20px 10px;
+    transition-duration: 0.5s;
+}
+a:hover {
+    background-color: rgb(53, 52, 52);
+}
+/*aqui irei domdelar o main e seus elementos*/
+main {
+    font-family: fontText;
+    background-color: lightblue;
+    min-width: 220px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 10px 20px;
+    border:1px solid darkblue;
+}
+.felipe-galan {
+    min-height: 260px;
+    max-height: 400px;
+    display: block;
+    margin: auto;
+    margin-bottom:20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
