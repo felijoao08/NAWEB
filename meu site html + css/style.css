@@ -22,6 +22,7 @@ body {
 header {
     position: sticky;
     top: 0;
+    box-shadow: 5px 5px 10px 0px rgb(0, 0, 0, 0.5);
 }
 .navbar > div {
     display: flex;
@@ -114,6 +115,7 @@ header {
     max-width: 1800px;
     margin: auto;
     background-color: white;
+    padding-bottom: 200px;
 }
 .sobre-mim > article {
     max-width: 1000px;
@@ -140,3 +142,43 @@ header {
 
 
 /*Aqui irei oraganiar a sessao na escola*/
+.escola {
+    max-width: 1800px;
+    max-height: 1500px;
+    margin: auto;
+    background-color: #171C26;
+    padding-top: 50px
+}
+.conteudo-escola {
+    margin: 100px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.text-escola {
+    color: #F2BA52;
+    max-width: 900px;
+}
+.text-escola >  h1 {
+    font-size: 64px;
+    margin-bottom: 30px;
+}
+.text-escola > p {
+    font-size: 25px;
+}
+table {
+    color: #F2BA52;
+    border: 1px solid #F2BA52;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+tr, td {
+    border: 1px solid #F2BA52;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+
+
+/*Aqui irei organizar a sessao curiosidades*/
