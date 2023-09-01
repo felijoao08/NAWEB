@@ -147,7 +147,8 @@ header {
     max-height: 1500px;
     margin: auto;
     background-color: #171C26;
-    padding-top: 50px
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .conteudo-escola {
     margin: 100px 30px;
@@ -170,15 +171,68 @@ table {
     color: #F2BA52;
     border: 1px solid #F2BA52;
     border-radius: 20px;
-    margin-top: 50px;
+    margin-top: 40px;
     margin-bottom: 50px;
 }
 tr, td {
     border: 1px solid #F2BA52;
-    padding: 10px 30px;
+    padding: 10px 45px;
     border-radius: 5px;
 }
 
 
 
 /*Aqui irei organizar a sessao curiosidades*/
+/*==tratando de como ira se apresentar em outros disposiitivos==*/
+
+
+/*================================================*/
+.curiosidades {
+    max-width: 1800px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.title-curiosidades {
+    text-align: center;
+    font-size: 64px;
+    color: #F2BA52;
+    margin: 50px auto;
+}
+.curiosidades > div {
+    height: 600px;
+    width: 600px;
+    
+}
+.curiosidades > div > h1 {
+    font-size: 48px;
+    margin: 30px 20px;
+
+}
+.curiosidades > div > p {
+    font-size: 40px;
+    margin: 30px 20px;
+}
+.desafiado {
+    background-color: #F2BA52;
+}
+.pai {
+    background-color: #171C26;
+    color: #F2BA52;
+
+}
+.alfabeto {
+    background-color: #464B59;
+    color: #F2BA52;
+}
+.desenho {
+    background-color: #464B59;
+    color: #F2BA52;
+}
+.goleiro {
+    background-color: #F2BA52;
+}
+.organizaçao {
+    background-color: #171C26;
+    color: #F2BA52;
+}
