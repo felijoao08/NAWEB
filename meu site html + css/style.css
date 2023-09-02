@@ -6,6 +6,7 @@
     font-family: K2D;
     src: url(fonte/K2D/K2D-Regular.ttf);
 }
+
 body {
     font-family: K2D;
     background-color: #0c0e13;
@@ -183,56 +184,127 @@ tr, td {
 
 
 /*Aqui irei organizar a sessao curiosidades*/
-/*==tratando de como ira se apresentar em outros disposiitivos==*/
-
-
-/*================================================*/
 .curiosidades {
     max-width: 1800px;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: white;
 }
 .title-curiosidades {
     text-align: center;
     font-size: 64px;
-    color: #F2BA52;
-    margin: 50px auto;
+    color: #171C26;
+    background-color: white;
+    max-width: 1800px;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .curiosidades > div {
-    height: 600px;
-    width: 600px;
-    
+    height: 300px;
+    width: 300px;
 }
 .curiosidades > div > h1 {
-    font-size: 48px;
+    font-size: 28px;
     margin: 30px 20px;
 
 }
 .curiosidades > div > p {
-    font-size: 40px;
+    font-size: 20px;
     margin: 30px 20px;
+
 }
 .desafiado {
     background-color: #F2BA52;
+    margin-top: 10px;
+    box-shadow: 10px 10px 10px 0px rgb(0, 0, 0, 0.5);
+    
 }
 .pai {
     background-color: #171C26;
     color: #F2BA52;
+    margin-top: 10px;
+    box-shadow: 10px 10px 10px 0px rgb(0, 0, 0, 0.5);
 
 }
 .alfabeto {
     background-color: #464B59;
     color: #F2BA52;
+    margin-top: 10px;
+    box-shadow: 10px 10px 10px 0px rgb(0, 0, 0, 0.5);
 }
 .desenho {
-    background-color: #464B59;
-    color: #F2BA52;
+    background-color: #F2BA52;
+    margin-top: 10px;
+    box-shadow: 10px 10px 10px 0px rgb(0, 0, 0, 0.5);
 }
 .goleiro {
-    background-color: #F2BA52;
+    background-color: #464B59;
+    color: #F2BA52;
+    margin-top: 10px;
+    box-shadow: 10px 10px 10px 0px rgb(0, 0, 0, 0.5);
 }
 .organizaçao {
     background-color: #171C26;
     color: #F2BA52;
+    margin-top: 10px;
+    box-shadow: 10px 10px 10px 0px rgb(0, 0, 0, 0.5);
+    
+}
+
+
+
+/*Aqui irei organizar a parte dos meus hobs*/
+.hobs {
+    margin: auto;
+    padding-bottom: 100px;
+    max-width: 1800px;
+    background-color: white;
+}
+.text-hobs > h1{
+    font-size: 64px;
+    text-align: center;
+    padding-top: 100px;
+    margin-bottom: 30px;
+}
+.text-hobs > p {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.text-hobs > h3 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.FIFA {
+    display: block;
+    margin: auto;
+    max-width: 800px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 0px rgb(0, 0, 0, 0.5);
+}
+
+
+
+/*Aqui irei organizar a parte de contatos*/
+.contatos {
+    max-width: 1800px;
+    height: 400px;
+    margin: auto;
+    background-color: #171C26;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.img-contatos {
+    max-height: 200px;
+    border-radius: 100%;
+    border: 3px solid #F2BA52;
+}
+.lista-contatos {
+    font-size: 30px;
+    color: white;
 }
