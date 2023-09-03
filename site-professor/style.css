@@ -81,20 +81,6 @@ header > div > img {
     border: 1px solid white;
 }
 
-.botao > a {
-    text-decoration: none;
-    color: black;
-    font-size: 20px;
-    padding: 15px 80px;
-    background-color: #04BFAD;
-    border: 1px solid white;
-    border-radius: 30px;
-}
-.botao > a:hover {
-    padding: 20px 90px;
-    transition-duration: 0.5s;
-    background-color: #04D9B2;
-}
 
 
 
@@ -148,9 +134,10 @@ header > div > img {
 .botoes-ai > div > a{
     text-decoration: none;
     color: white;
+    font-size: 20px;
 }
 .botoes-ai >  div > a:hover {
-    font-size: 20px;
+    font-size: 21px;
     color: #04D9B2;
     transition-duration: 0.5s;
 }
@@ -173,12 +160,12 @@ header > div > img {
     box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
 }
 .artigos > div > article > h2 {
-    font-size: 42px;
+    font-size: 40px;
     margin: 20px;
 }
 .artigos > div > article > p {
-    font-size: 20px;
-    margin: 0px 20px;
+    font-size: 28px;
+    margin: 10px 20px;
 }
 .A1 {
     background-image: url('Imagens/A1.png');
@@ -191,3 +178,7 @@ header > div > img {
     background-image: url('Imagens/A3.png');
     text-align: center;
 }
+
+
+
+/*Aqui ireie organizar a sessao sobre a educaçao*/
