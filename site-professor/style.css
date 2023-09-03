@@ -6,72 +6,101 @@
     font-family: K2D;
     src: url(fonte/K2D/K2D-Regular.ttf);
 }
-@media (max-width: 600px) {
-    header {
-        background-color: #04D9B2;
-    }
-}
 
 body {
     font-family: K2D;
-    background-color: rgba(5, 5, 5, 0.795);
+    background-color: #0D0D0D;
 }
 
+
+
+
 /*Aqui irei  organizar a navbar*/
-/*==Aqui irei tratar o reader para outras telas==*/
-/*===============================================*/
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #262626;
-    height: 100px;
     position: sticky;
     top: 0;
     max-width: 1800px;
+    max-height: 800px;
     margin: auto;
-    
+    flex-wrap: wrap;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
 }
 header > div > img {
-    max-width: 200px;
-    min-height: 100px;
+  height: 100px;
 }
-.navbar > a {
-    margin-right: 50px;
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+.navbar > div >  a {
+    margin-right: 30px;
     font-size: 20px;
     text-decoration: none;
     color: white;
 }
-.navbar > a:hover {
+.navbar > div > a:hover {
     animation-duration: 0.3s;
     font-size: 22px;
     color: #04D9B2;
 }
 
 
+
+
 /*Aqui irei organizar a minha hero*/
 .hero {
-    background-image: url("Imagens/1298130.jpg");
-    max-width: 1800px;
+    background-color: rgba(0, 0, 0, 0.5);
     height: 880px;
+    max-width: 1800px;
     margin: auto;
     display: flex;
     align-items: center;
+    justify-content: center;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
-.text-hero > h1 {
-    font-size: 64px;
+.details-hero {
+    background-image: url("Imagens/1298130.jpg");
+    max-width: 1800px;
+    margin: auto;
+}
+.text-hero > h1{
+    font-size: 65px;
     color: white;
-    margin-left: 30px;
 }
 .text-hero > p {
-    font-size: 30px;
-    color: rgba(255, 255, 255, 0.664);
-    margin-left: 30px;
+    font-size: 32px;
+    color: rgba(255, 255, 255, 0.5);
 }
-.img-hero {
-    margin-top: 280px;
+.img-hero > img{
+    height: 400px;
+    border-radius: 100%;
+    border: 1px solid white;
 }
-.img-hero > img {
-    height: 600px;
+
+
+
+/*Aqui irei tratar da sessao sobre jardel*/
+.sobre-jardel {
+    background-image: url("Imagens/ligaçoes\ quimicas.png");
+    max-width: 1800px;
+    height: 880px;
+    margin: auto;
+    padding-top: 100px;
+}
+.text-sjardel > h1{
+    font-size: 64px;
+    text-align: center;
+    margin-top: 20px;
+
+}
+.text-sjardel > p {
+    font-size: 32px;
+    margin: 30px 20px ;
+    text-align: center;
 }
