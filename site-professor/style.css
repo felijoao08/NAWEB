@@ -12,8 +12,6 @@ body {
     background-color: #0D0D0D;
 }
 
-
-
 /*Aqui irei  organizar a navbar*/
 header {
     display: flex;
@@ -51,7 +49,7 @@ header > div > img {
 
 /*Aqui irei organizar a minha hero*/
 .hero {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.6);
     height: 890px;
     max-width: 1800px;
     margin: auto;
@@ -62,7 +60,7 @@ header > div > img {
     flex-wrap: wrap;
 }
 .details-hero {
-    background-image: url("Imagens/1298130.jpg");
+    background-image: url("Imagens/vidraças-hero.png");
     max-width: 1800px;
     margin: auto;
 }
@@ -151,7 +149,6 @@ header > div > img {
     max-width: 1800px;
     margin: auto;
     color: white;
-    margin-bottom: 20px;
     margin-top: 10px;
     text-align: center;
     display: flex;
@@ -182,3 +179,56 @@ header > div > img {
 
 
 /*Aqui ireie organizar a sessao sobre a educaçao*/
+
+.educaçao {
+    background-image: url('Imagens/Educaçao.png');
+    height: 1025px;
+    max-width: 1800px;
+    margin: auto;
+}
+.details-educaçao {
+    height: 1025px;
+    background-color:  rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.h1-educaçao {
+    font-size: 75px;
+    color: white;
+    margin: 0px 15px;
+}
+.p-educaçao {
+    font-size: 32px;
+    max-width: 500px;
+    color: white;
+    margin: 0px 15px;
+    
+}
+
+
+@media  only screen and (max-width: 1000px) {
+    /*parte da educaçao*/
+    .p-educaçao {
+        text-align: center;
+    }
+    .h1-educaçao {
+        font-size: 70px;
+    }
+
+    /*parte da area de interessses*/
+    .botoes-ai {
+      flex-wrap: wrap;
+      height: 300px;
+    }
+    .botoes-ai > div > a {
+        font-size: 35px !important;
+
+    }
+    .botoes-ai >  div > a:hover {
+        color: #04D9B2;
+        transition-duration: 0.5s;
+    }
+    
+}
