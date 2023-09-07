@@ -73,13 +73,10 @@ header > div > img {
     color: rgba(255, 255, 255, 0.5);
     margin-bottom: 100px;
 }
-.img-hero > img{
-    height: 400px;
+.img-hero > img {
+    height: 700px;
     border-radius: 100%;
-    border: 1px solid white;
 }
-
-
 
 
 /*Aqui irei tratar da sessao sobre jardel*/
@@ -91,14 +88,14 @@ header > div > img {
     padding-top: 100px;
 }
 .text-sjardel > h1{
-    font-size: 64px;
+    font-size: 94px;
     text-align: center;
     margin-top: 20px;
 
 }
 .text-sjardel > p {
     font-size: 32px;
-    margin: 30px 20px ;
+    margin: 100px 50px ;
     text-align: center;
 }
 
@@ -128,6 +125,8 @@ header > div > img {
     justify-content: space-around;
     align-items: center;
     box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    position: sticky;
+    top: 0;
 }
 .botoes-ai > div > a{
     text-decoration: none;
@@ -208,22 +207,96 @@ header > div > img {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*AQUI ESTOU CUIDANDO DE TODAS AD MIDIAS QUERIES*/
 @media  only screen and (max-width: 1000px) {
+    /*parte do hero*/
+    .img-hero > img{
+        height: 400px !important;
+        border-radius: 100%;
+        border: 1px solid white;
+
+    }
+
+    
+
     /*parte da educaçao*/
     .p-educaçao {
         text-align: center;
+        max-width: 800px;
     }
     .h1-educaçao {
         font-size: 70px;
     }
 
+
+
     /*parte da area de interessses*/
     .botoes-ai {
       flex-wrap: wrap;
       height: 300px;
+      position: static !important;
     }
     .botoes-ai > div > a {
         font-size: 35px !important;
+       
 
     }
     .botoes-ai >  div > a:hover {
@@ -231,4 +304,24 @@ header > div > img {
         transition-duration: 0.5s;
     }
     
+}
+@media  only screen and (max-width: 1300px) {
+
+    /*parte do hero*/
+    .img-hero > img {
+        height: 500px;
+    }
+
+
+    /*parte da educaçãoo*/
+    .p-educaçao {
+        text-align: center;
+        max-width: 800px;
+    }
+
+}
+@media  only screen and (max-width: 1500px) {
+.img-hero > img {
+    height: 400px;
+}
 }
