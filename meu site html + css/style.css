@@ -286,9 +286,11 @@ tr, td {
     display: block;
     margin: auto;
     max-width: 800px;
+    min-width: 500px;
     border-radius: 20px;
     box-shadow: 10px 10px 10px 0px rgb(0, 0, 0, 0.5);
 }
+
 
 
 
@@ -301,6 +303,7 @@ tr, td {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
 .img-contatos {
     max-height: 150px;
@@ -308,6 +311,21 @@ tr, td {
     border: 3px solid #F2BA52;
 }
 .lista-contatos {
-    font-size: 30px;
+    font-size: 20px;
     color: white;
+    margin-left: 30px;
+}
+
+
+
+/*AQUI IREI TRATAR DAS MEDIAS QUERIES*/
+@media only screen and (max-width: 800px) {
+    header {
+        height: 150px;
+        background-color: #171C26;
+    }
+    .FIFA {
+        width: 500px;
+    }
+    
 }
