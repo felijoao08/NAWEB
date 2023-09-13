@@ -26,9 +26,10 @@ header {
     flex-wrap: wrap;
     box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
 }
-header > div > img {
-  height: 80px;
+.logo  > img {
+   height: 85px;
 }
+
 .navbar {
     display: flex;
     flex-wrap: wrap;
@@ -74,9 +75,8 @@ header > div > img {
     color: rgba(255, 255, 255, 0.5);
     margin-bottom: 100px;
 }
-.img-hero > img {
+.img-hero > img{
     height: 700px;
-    border-radius: 100%;
 }
 
 
@@ -227,21 +227,23 @@ header > div > img {
     margin-bottom: 30px;
     font-size: 64px;
 }
-.table {
-    background-color: #0D0D0D;
+.table > table{
+    border-collapse: collapse;
 }
 .cabeçalho-tabela > th{
     background-color: #262626;
     height: 50px;
-    width: 400px;
-}
-.principal-tabela {
-    background-color: #0D0D0D;
+    width: 300px;
 }
 .principal-tabela > tr > th {
-    width: 400px;
-    height: 40px;
-    border-bottom: 1px solid  #262626;
+    width: 300px;
+    height: 50px;
+}
+.fila-clara {
+    background-color: #04d9b2af;
+}
+.fila-escura {
+    background-color: #037e8cbb;
 }
 
 
@@ -264,7 +266,7 @@ footer {
     flex-wrap: wrap;
 }
 .Contatos div > picture > img{
-    height: 100px;
+    height: 150px;
     margin-left: 60px ;
 }
 .Contatos > div > h3 {
@@ -302,10 +304,13 @@ footer {
     height: 600px;
     max-width: 450px;
     background-color: white;
+    border-radius: 20px;
     box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
     
 }
 .card-image{
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
     background-image: url("Imagens/card1.jpg");
     box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
 }
@@ -318,6 +323,8 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
 }
 .text-card {
     margin: 30px 10px;
