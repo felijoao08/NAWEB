@@ -151,33 +151,44 @@ header {
     padding-bottom: 50px;
 }
 .conteudo-escola {
-    margin: 100px 30px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    max-width: 1400px;
+    margin: auto;
+    text-align: center;
 }
 .text-escola {
     color: #F2BA52;
-    max-width: 900px;
 }
-.text-escola >  h1 {
+.text-escola > h1 {
     font-size: 64px;
+    margin-top: 50px;
     margin-bottom: 30px;
 }
 .text-escola > p {
-    font-size: 25px;
+    font-size: 20px;
+}
+.table {
+    max-width: 1400px;
+    display: flex;
+    justify-content: center;
+    color: white;
 }
 table {
-    color: #F2BA52;
-    border: 1px solid #F2BA52;
-    border-radius: 20px;
-    margin-top: 40px;
-    margin-bottom: 50px;
+    border-collapse: collapse;
+    margin: 50px 10px;
 }
-tr, td {
-    border: 1px solid #F2BA52;
-    padding: 10px 45px;
-    border-radius: 5px;
+td, th{
+    width: 300px;
+    height: 40px;
+}
+.title-table {
+    background-color: white;
+    color: #171C26;
+}
+.fila-escura {
+    background-color: #f0af36;
+}
+.fila-clara {
+    background-color: #f3ca7e;
 }
 
 
@@ -216,8 +227,6 @@ tr, td {
     display: flex;
     justify-content: center;
     background-color: #171C26;
-    border-bottom-left-radius: 180px;
-    border-bottom-right-radius: 180px;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
 }
@@ -257,14 +266,14 @@ tr, td {
     margin-bottom: 30px;
 }
 .text-hobbies > p {
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
     margin-left: 30px;
     margin-right: 10px;
     margin-bottom: 50px;
 }
 .text-hobbies > h3 {
-    font-size: 20px;
+    font-size: 15px;
     text-align: center;
     margin: 10px 10px 20px 10px;
 }
@@ -292,7 +301,7 @@ tr, td {
     border-top: 5px solid #F2BA52;
 }
 .img-contatos {
-    height: 150px;
+    height: 130px;
     
 }
 .lista-contatos {
@@ -316,6 +325,7 @@ tr, td {
     }
     .lista-contatos {
         font-size: 15px;
+        text-align: center;
     }
     .img-contatos {
         height: 100px;
